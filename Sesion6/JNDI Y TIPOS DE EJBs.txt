@@ -1,0 +1,12 @@
+JNDI Y TIPOS DE EJBs
+
+JNDI -> Java Naming and Directory Interface
+
+API REST
+
+METHODS
+POST -> Create
+GET -> Read
+PUT -> Update all properties
+PATCH -> Update somes properties
+DELETE -> DELETE

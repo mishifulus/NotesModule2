@@ -1,0 +1,26 @@
+JAVABEANS, ANOTACIONES Y LOGGING
+
+Plugging Database tool -> to recognize sql sintaxis
+
+We can create embedded database in memory of Spring, adding this sql files in Resources, 
+Schema -> DDL
+Data -> DML
+
+logging.level.root=DEBUG in resources to run the sql files in debug of spring
+
+The repository is a class for manipulate the data of an application
+
+There are diferents Database dependencies like Derbian, HyperSQL and H2
+
+Usually, it used an database for testing and other for production
+
+CONEXION, USER AND PASS IN RESOURCES OF PRODUCTION
+jdbc.url=jdbc:mysql://localhost:3306/myDb
+jdbc.user="dbUser"
+jdbc.pass="dbPass"
+
+CONEXION, USER AND PASS IN RESOURCES OF TESTING
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.url=jdbc:h2:mem:db;
+spring.datasource.username=sa
+spring.datasource.password=sa

@@ -1,0 +1,33 @@
+JAVA BACKEND INTRODUCTION
+
+Backend is the part logic of an application, and is hide for the user.
+The frontend is the communication with the user, with windows and layers.
+
+The user uses the frontend, but the real function is in the backend. It include the database connection, business logic, dependecies, libraries, and the information management.
+
+Spring is a framework for generate projects. 
+Spring boot is the technology to create a spring base of applicaction, with dependencies for make too easy the developement.
+
+A spring application is organized by packages -> main/java/como/example/demo/Application
+The main is the method for runnning a spring application
+
+The dependencies are the part where is included the spring logic
+The pom.xml has the principal configuration.
+
+Spring-boot-starter -> Configuration application
+Spring-boot-starter-test -> Configuration test
+
+The configuration build is the configurtion about maven and the way is compiled.
+
+The repositories are the source where are the libraries to use. For each actualization, there a repository.
+
+When you inicitailize an spring application, spring boot is inicializated.
+
+Packaging is the way that a project is compiled or compressed.
+
+When a spring application is with Maven or Gradle, the application contains the same inforation, but the way is implemented and organized is different.
+
+When you change the configuration in the gradle or pom, is necessary syncronize the project
+Syncronize - > Downlonging the actualizations and dependecies of spring boot
+
+Settings gradle never can change for us.

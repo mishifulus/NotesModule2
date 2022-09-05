@@ -1,0 +1,47 @@
+JAVA PLATFORM ENTERPRISE EDITION - JAVA EE
+JAKARTA EE used Java EE and Java 2 EE, is close to Eclipse, Oracle
+Jakarta is ready for use with cloud native applications, has specifications, versiones.
+And is: 
+Scalable
+Reliable
+Secure networks application
+Multi-tiered
+Large-scale
+
+Updates:
+Context and dependency injection
+JSON Binding
+Servlets (GET,POST)
+RESTful web services
+JavaServer faces (JSF) ICEfaces like framework as Angular or Bootstrap
+API for JSON Processing
+Security API
+Bean validation
+Persistance
+API for WebSocket
+JavaMail
+
+API:
+It's an interfaz of application programming. It's a group od rutines that get access to functions of a software.
+Connection of ports for set information and get new information that make a process
+
+Software repositories:
+MAVEN
+It's a management of dependencies, in a virtual mashine that provees updates, characteristics
+POM - Project Object Model
+
+PATH VARIABLE
+echo %PATH%
+# Maven
+export MVN_HOME=~/Downloads/apache-maven-3.8.6
+export PATH=$PATH:$MVN_HOME/bin
+for instalation of MAVEN
+
+More information
+https://maven.apache.org/download.cgi
+
+REPOSITORIES:
+https://mvnrepository.com/
+
+Spring started:
+Web profile:

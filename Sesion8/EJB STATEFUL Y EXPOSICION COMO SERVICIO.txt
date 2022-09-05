@@ -1,0 +1,10 @@
+EJB STATEFUL Y EXPOSICION COMO SERVICIO
+
+@Configuration
+When you have beans inside of the class
+
+@Component
+When the class includes beans of others files 
+
+@Autowired
+It's in a component for detect the beans proveded

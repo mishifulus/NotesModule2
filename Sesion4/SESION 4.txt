@@ -1,0 +1,19 @@
+APLICATIONS JEE
+Repository -> A class with the access to DB
+Controller -> Which realiced the CRUD operations with a connection to Repository
+Service -> Where are the business logic of an applicaction
+
+ANOTACIONES OF SPRING
+https://springframework.guru/spring-framework-annotations/
+
+LOMBOOK:
+https://projectlombok.org/
+
+FORMAT:
+https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html
+
+LOGBACK:
+https://logback.qos.ch/manual/index.html
+Is an interfaz in console for get messages in diferents levels: info, error, debug, tracer, etc
+
+<logger name="com.example" level="INFO"></logger> to change the level

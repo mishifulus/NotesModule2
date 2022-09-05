@@ -1,0 +1,16 @@
+JAVA EE APP SERVICES
+
+DEPENDENCY INJECTION is when an class depends of recive objects of differents classes, with help of his constructor:
+
+public Sala(Screen screen, Movie movie)
+{
+this.screen=screen;
+this.movie = movie;
+}
+
+Important notations:
+@Component -> Request spring structure
+@Autowire -> Request an object
+@Bean -> Object to a dependency injection
+
+

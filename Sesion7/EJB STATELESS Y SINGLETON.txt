@@ -1,0 +1,22 @@
+EJB STATELESS Y SINGLETON
+ENDPOINTS:
+Configuration and process of a REST API
+Data and Entity aren't compatibles because, Entity is for work outside of BD and Data inside, with ORM too.
+
+@RequestMapping(produces = {"application/json"}
+This annotation indicates how you send the information, like JSON, XML, etc
+
+@PostMapping(path = "/hola", consumes = "application/json", produces = "application/json")
+This annotation indicates how you send and receives the information, like JSON, XML, ect.
+
+State code of HTTP response
+Informative: 100-199
+Satisfactory: 200-299
+Redirections: 300-399
+Client errors: 400-499
+Server errors: 500-599
+More information with little cats:
+https://http.cat/
+
+
+

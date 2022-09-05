@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS pizza (
+    id SMALLINT NOT NULL,
+    nombre VARCHAR(50) NOT NULL
+);
